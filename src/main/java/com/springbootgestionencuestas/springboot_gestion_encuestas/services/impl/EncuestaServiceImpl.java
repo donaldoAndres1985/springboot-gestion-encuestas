@@ -24,7 +24,7 @@ public class EncuestaServiceImpl implements EncuestaService {
     }
 
     @Override
-    public List<Encuesta> obtenerTodasLAsEncuestas() {
+    public List<Encuesta> obtenerTodasLasEncuestas() {
         return encuentaRepository.findAll();
     }
 

@@ -8,7 +8,7 @@ import java.util.Optional;
 public interface EncuestaService {
     Encuesta crearEncuesta(String titulo);
 
-    List<Encuesta> obtenerTodasLAsEncuestas();
+    List<Encuesta> obtenerTodasLasEncuestas();
 
     Optional<Encuesta> obtenerDetallesEncuesta(Long encuestaId);
 
